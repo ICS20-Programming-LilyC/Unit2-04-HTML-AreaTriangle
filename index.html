@@ -19,7 +19,6 @@
 
     <!--Title-->
     <title>My first webpage, with a JS file</title>
-    <script src="./js/script.js"></script>
   </head>
   <body>
 
@@ -53,34 +52,34 @@
 
         <!-- Simple Textfield -->
         <form action="#">
-          <p>Length</p>
+          <p>Base</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="length-of-rectangle"
+              id="base-of-rectangle"
             />
-            <label class="mdl-textfield__label" for="length-of-rectangle">Insert a length</label>
+            <label class="mdl-textfield__label" for="base-of-rectangle">Insert the length of the base</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-				
+
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Width</p>
+          <p>Height</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="width-of-rectangle"
+              id="height-of-rectangle"
             />
-            <label class="mdl-textfield__label" for="width-of-rectangle">Insert a width</label>
+            <label class="mdl-textfield__label" for="height-of-rectangle">Insert a length for the height</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-				
+
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
@@ -97,4 +96,5 @@
       </main>
     </div>
   </body>
+  </head>
 </html>

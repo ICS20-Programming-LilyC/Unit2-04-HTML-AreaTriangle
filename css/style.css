@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  background-color: rgb(234, 158, 52);
+  background-color: rgb(234 158 52);
   color: hsl(50deg 100% 50%);
   padding: 40px;
   text-align: center;
@@ -17,5 +17,5 @@ h1 {
 
 p {
   background-color: #df7716;
-  color: #000000;
+  color: #000;
 }
